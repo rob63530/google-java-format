@@ -3879,7 +3879,7 @@ public class JavaInputAstVisitor extends TreePathScanner<Void, Void> {
     if (declarationKind == DeclarationKind.FIELD){
       return Direction.VERTICAL;
     }    
-    return Direction.VERTICAL;
+    return Direction.HORIZONTAL;
   }
 
   /**
